@@ -141,12 +141,13 @@ Other possible use cases:
 2. Digital thread (Single source of thruth for entire i4.0 process) + Digital twin
 3. Digital thread + microservices + new digital innovation (e.g. machine learning) + Digital twin
 4. IT observability and SIEM (Cybersecurity analytics)
+5. 5G deployment 
 
 The following diagram shows the architecture and solutions with digital thread in front of indexing platform.
 
 ![gtronics-demo-digital-thread-and-digital-twin](https://user-images.githubusercontent.com/107167692/217938543-08e6552a-32e8-44dd-8eb1-c139ac0c0752.png)
 
-### Advantages.
+### Advantages:
 1. Zero licensing cost.
 2. Opex model for majority workloads.
 3. Applying for distributed edge-cloud architecture at ease, e.g. many plants.
