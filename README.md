@@ -88,7 +88,7 @@ Showing digital twin from the existing disconnected IIoT machine. The following 
 
 ![gtronics-demo-digital-twin](https://user-images.githubusercontent.com/107167692/217925435-a9e97193-e167-4d56-b107-65d371f18de0.png)
 
-Fledge is the system of IIoT machine which has southbound plugins to connect to various sensors. We enabled a lathe simulator in it and to generate the readings. First, we will show it is in isolated scenario. The only choice to access its readings data is through its local dashboard.
+Fledge is a good open source system for IIoT machine which it has southbound plugins to connect to various sensors. We enabled a lathe simulator in it and to generate the readings. First, we will show it is in isolated scenario. The only choice to access its readings data is through its local dashboard.
 
 The following screen shot of the local dashboard shows the RPM and depth readings in each X process.
 
@@ -122,7 +122,7 @@ The following screen shot of the local dashboard shows the minimum, average, and
 
 ![Screenshot from 2023-02-10 04-17-20](https://user-images.githubusercontent.com/107167692/217929457-4998d6ef-3dc9-41ec-9aa7-ee7caf056419.png)
 
-This is the legacy dashboard design. The machine vendor designed what data should only their customers see. Customers are locked in. With the digital twin (After digitalizing the machine data), the customers now have the opportunity to customize the dashboard for different analytical purposes or any other downstream use case.
+This is the simple dashboard design. The machine vendor designed what data should only their customers see. Customers are locked in. With the digital twin (After digitalizing the machine data), the customers now have the opportunity to customize the dashboard for different analytical purposes or any other downstream use case.
 
 ### Examples:
 
