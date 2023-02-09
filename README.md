@@ -151,6 +151,6 @@ The following diagram shows the architecture and solutions with digital thread i
 2. Opex model for majority workloads.
 3. Applying for distributed edge-cloud architecture at ease, e.g. many plants.
 4. Modern DevOps, MLOps, and NetOps approach.
-5. Easily extend new digital initiatives.
+5. Extending and integrating new digital initiatives easily.
 6. etc
 
