@@ -128,7 +128,7 @@ Example: Twinning exactly what data is available in the local machine. For detai
 
 ![Screenshot from 2023-02-10 04-58-02](https://user-images.githubusercontent.com/107167692/217937683-59c3b12f-7e05-461a-8f56-d14fb6265c21.png)
 
-Example: Customizing and zooming into specify context since indexing and record transformation are applied on the fly, then extending its time-series data for anomaly detection. For details, please contact us for further actual demo.
+Example: Customizing and zooming into specify context since record transformation and indexing are applied on the fly, then extending its time-series data for anomaly detection. For details, please contact us for further actual demo.
 
 ![Screenshot from 2023-02-10 04-59-27](https://user-images.githubusercontent.com/107167692/217937941-57dc6f9b-c789-4c11-88df-38dc18fc2732.png)
 
@@ -142,7 +142,7 @@ Other possible use cases:
 5. Sustainability use case 
 6. 5G deployment 
 
-The following diagram shows the architecture and solutions with digital thread in front of indexing platform. Every microservices or subscriber could access the accurate and updated transactional data. Customers are allowed to choose various supported database if they want. Apache Spark is allowed for integration as well.
+The following diagram shows the architecture and solutions with digital thread in front of indexing platform. Normalizing data can be performed. Every microservices or subscriber could access the accurate and updated transactional data. Customers are allowed to choose various supported database if they want. Apache Spark is allowed for integration as well.
 
 ![gtronics-demo-digital-thread-and-digital-twin](https://user-images.githubusercontent.com/107167692/217938543-08e6552a-32e8-44dd-8eb1-c139ac0c0752.png)
 
