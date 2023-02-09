@@ -141,7 +141,8 @@ Other possible use cases:
 2. Digital thread (Single source of thruth for entire i4.0 process) + Digital twin
 3. Digital thread + microservices + new digital innovation (e.g. machine learning) + Digital twin
 4. IT observability and SIEM (Cybersecurity analytics)
-5. 5G deployment 
+5. Sustainability use case 
+6. 5G deployment 
 
 The following diagram shows the architecture and solutions with digital thread in front of indexing platform.
 
