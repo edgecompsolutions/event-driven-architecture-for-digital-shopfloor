@@ -63,7 +63,7 @@ Machine T ---> Rest API --->
 
 Machine U ---> Rest API --->
 
-Machine V ---> Rest API ---> External App ---> Rest API ---> External DB ---> Query ---> Data Analytics
+Machine V ---> Rest API ---> External App ---> Rest API (Multiple) ---> External DB ---> Query ---> Data Analytics
 
 Machine W ---> Rest API ---> 
 
