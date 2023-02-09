@@ -98,7 +98,7 @@ The following screen shot of the local dashboard shows the state (Idle, spinning
 
 ![Screenshot from 2023-02-10 04-21-12](https://user-images.githubusercontent.com/107167692/217928232-a246a236-4941-4680-9e41-5b4f03fcc5f1.png)
 
-The following screen shot of the local dashboard shows the current readings.
+The following screen shot of the local dashboard shows the current readings of the lathe machine.
 
 ![Screenshot from 2023-02-10 04-15-27](https://user-images.githubusercontent.com/107167692/217928471-1627bcdf-7623-4cbb-abbb-1804450631d3.png)
 
@@ -106,15 +106,15 @@ The following screen shot of the local dashboard shows the minimum, average, and
 
 ![Screenshot from 2023-02-10 04-15-55](https://user-images.githubusercontent.com/107167692/217928825-1d33b2e7-5fa0-4f24-8378-ace8817c9b17.png)
 
-The following screen shot of the local dashboard shows the temperature readings for each key component of the lathe machine.
+The following screen shot of the local dashboard shows the temperature readings for each key component of the lathe machine such as tool, gearbox, headstock, tailstock, and motor.
 
 ![Screenshot from 2023-02-10 04-16-21](https://user-images.githubusercontent.com/107167692/217928925-1697727b-3bda-41b9-a355-79c96d3e5aaa.png)
 
-The following screen shot of the local dashboard shows the minimum, average, and maximum of temperature reading for each key component in entire time range.
+The following screen shot of the local dashboard shows the minimum, average, and maximum of temperature readings for each key component in entire time range.
 
 ![Screenshot from 2023-02-10 04-16-39](https://user-images.githubusercontent.com/107167692/217929145-3b2c45f8-7a1f-47ef-a444-eef968e3dadc.png)
 
-The following screen shot of the local dashboard shows the vibration readings for the motor of the lathe machine.
+The following screen shot of the local dashboard shows the vibration readings such as RMS and frequency for the motor of the lathe machine.
 
 ![Screenshot from 2023-02-10 04-17-03](https://user-images.githubusercontent.com/107167692/217929300-85fb9235-f415-40cd-a8cb-183662cbcbe5.png)
 
@@ -124,7 +124,29 @@ The following screen shot of the local dashboard shows the minimum, average, and
 
 This is the legacy dashboard design. The machine vendor designed what data should only their customers see. Customers are locked in. With the digital twin (After digitalizing the machine data), the customers now have the opportunity to customize the dashboard for different analytical purposes or any other downstream use case.
 
+Example: Twinning exactly what data is available in the local machine. For details, please contact us for further actual demo.
 
+![Screenshot from 2023-02-10 04-58-02](https://user-images.githubusercontent.com/107167692/217937683-59c3b12f-7e05-461a-8f56-d14fb6265c21.png)
 
+Example: Customizing and zooming into specify context and extend its time-series data for anomaly detection. For details, please contact us for further actual demo.
 
+![Screenshot from 2023-02-10 04-59-27](https://user-images.githubusercontent.com/107167692/217937941-57dc6f9b-c789-4c11-88df-38dc18fc2732.png)
+
+Other possible use cases:
+1. Digital twin with AR/VR and customized outputs
+2. Digital thread (Single source of thruth for entire i4.0 process) + Digital twin
+3. Digital thread + microservices + new digital innovation + Digital twin
+4. IT observability and SIEM (Cybersecurity analytics)
+
+The following diagram shows the architecture and solutions with digital thread in front of indexing platform.
+
+![gtronics-demo-digital-thread-and-digital-twin](https://user-images.githubusercontent.com/107167692/217938543-08e6552a-32e8-44dd-8eb1-c139ac0c0752.png)
+
+### Advantages.
+1. Zero licensing cost.
+2. Opex model for majority workloads.
+3. Applying for distributed edge-cloud architecture at ease, e.g. many plants.
+4. Modern DevOps, MLOps, and NetOps approach.
+5. Easily extend new digital initiatives.
+6. etc
 
