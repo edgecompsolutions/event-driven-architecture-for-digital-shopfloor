@@ -1,4 +1,4 @@
-# Event-driven architecture for digital shopfloor
+By# Event-driven architecture for digital shopfloor
 
 ### Introduction
 This page demonstrates the concept and importance of building an event-driven architecture for digital shopfloor.
@@ -122,7 +122,7 @@ The following screen shot of the local dashboard shows the minimum, average, and
 
 ![Screenshot from 2023-02-10 04-17-20](https://user-images.githubusercontent.com/107167692/217929457-4998d6ef-3dc9-41ec-9aa7-ee7caf056419.png)
 
-This is a simple dashboard design. The machine vendor designed what data should only their customers see. Customers are locked in. With the digital twin (After digitalizing the machine data), the customers now have the opportunity to customize the dashboard for different analytical purposes or any other downstream use case.
+However, this is a simple and basic dashboard design. The machine vendor designed what data should only their customers see. Customers are locked in. With the digital twin (After digitalizing the machine data), the customers now have the opportunity to customize the dashboard for different analytical purposes or any other downstream use case.
 
 ### Examples:
 
