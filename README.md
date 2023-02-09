@@ -130,9 +130,11 @@ Example: Twinning exactly what data is available in the local machine. For detai
 
 ![Screenshot from 2023-02-10 04-58-02](https://user-images.githubusercontent.com/107167692/217937683-59c3b12f-7e05-461a-8f56-d14fb6265c21.png)
 
-Example: Customizing and zooming into specify context and extend its time-series data for anomaly detection. For details, please contact us for further actual demo.
+Example: Customizing and zooming into specify context then extend its time-series data for anomaly detection. For details, please contact us for further actual demo.
 
 ![Screenshot from 2023-02-10 04-59-27](https://user-images.githubusercontent.com/107167692/217937941-57dc6f9b-c789-4c11-88df-38dc18fc2732.png)
+
+As such, by twinning or digitalizing all machines data, we could build a digital shopfloor. Light off deployment will be much more easier.
 
 Other possible use cases:
 1. Digital twin with AR/VR and customized outputs
