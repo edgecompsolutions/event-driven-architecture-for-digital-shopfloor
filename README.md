@@ -144,7 +144,7 @@ Other possible use cases:
 5. Sustainability use case 
 6. 5G deployment 
 
-The following diagram shows the architecture and solutions with digital thread in front of indexing platform. Every microservices or subscriber could access the accurate and updated transactional data. Customers are allowed to choose various supported database if they want.
+The following diagram shows the architecture and solutions with digital thread in front of indexing platform. Every microservices or subscriber could access the accurate and updated transactional data. Customers are allowed to choose various supported database if they want. Apache Spark is allowed for integration as well.
 
 ![gtronics-demo-digital-thread-and-digital-twin](https://user-images.githubusercontent.com/107167692/217938543-08e6552a-32e8-44dd-8eb1-c139ac0c0752.png)
 
