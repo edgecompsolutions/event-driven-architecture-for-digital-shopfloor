@@ -79,7 +79,7 @@ Event-driven architecture resolves this challenge at ease by leveraging asynchro
 Machine X (Publisher) with source connector ---> Asynchronous API (Event) ---> event streaming platform ---> Asynchronous API (Event) ---> External DB (Subscriber) with sink connector ---> Query ---> Data Analytics
 ```
 
-As such, less demand for requirements of network and computing hardware is required. Most people leverages this for its modern distributed edge-cloud architecture, e.g. IoT, IIoT, autonoumous systems, drone, etc. This also works for unstructured data. Note that this architecture can be setting up with multiple publishers and single subscriber, single publisher and multiple subscribers, or multiple publishers and multiple subscribers.
+As such, less demand for requirements of network and computing hardware is required. Most people leverages this for its modern distributed edge-cloud architecture, e.g. IoT, IIoT, robotics arm, autonoumous systems, drone, etc. This also works for unstructured data. Note that this architecture can be setting up with multiple publishers and single subscriber, single publisher and multiple subscribers, or multiple publishers and multiple subscribers.
 
 There is a data pipeline available in the event streaming platform that we recommended. So, data reliability is guaranteed.
 
