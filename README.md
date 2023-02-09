@@ -149,10 +149,11 @@ The following diagram shows the architecture and solutions with digital thread i
 ![gtronics-demo-digital-thread-and-digital-twin](https://user-images.githubusercontent.com/107167692/217938543-08e6552a-32e8-44dd-8eb1-c139ac0c0752.png)
 
 ### Advantages:
-1. Zero licensing cost.
-2. Opex model for majority workloads.
-3. Applying for distributed edge-cloud architecture at ease, e.g. many plants.
-4. Modern DevSecOps, MLOps, and NetOps approach.
-5. Extending and integrating new digital initiatives easily.
-6. etc
+1. Open source, open standard, and hardware/cloud vendor agnostic.
+2. Zero licensing cost.
+3. Opex model for majority workloads.
+4. Applying for distributed edge-cloud architecture at ease, e.g. many plants.
+5. Modern DevSecOps, MLOps, and NetOps approach.
+6. Extending and integrating new digital initiatives easily.
+7. etc
 
