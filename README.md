@@ -140,7 +140,7 @@ Other possible use cases:
 1. Digital twin with AR/VR and customized outputs
 2. Digital thread (Single source of thruth for entire i4.0 process) + Digital twin
 3. Digital thread + microservices + new digital innovation (e.g. machine learning) + Digital twin
-4. IT observability and SIEM (Cybersecurity analytics)
+4. IT observability (Including database metrics can be audited easily) and SIEM (Cybersecurity analytics)
 5. Sustainability use case 
 6. 5G deployment 
 
