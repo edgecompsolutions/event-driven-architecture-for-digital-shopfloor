@@ -137,7 +137,7 @@ Example: Customizing and zooming into specify context and extend its time-series
 Other possible use cases:
 1. Digital twin with AR/VR and customized outputs
 2. Digital thread (Single source of thruth for entire i4.0 process) + Digital twin
-3. Digital thread + microservices + new digital innovation + Digital twin
+3. Digital thread + microservices + new digital innovation (e.g. machine learning) + Digital twin
 4. IT observability and SIEM (Cybersecurity analytics)
 
 The following diagram shows the architecture and solutions with digital thread in front of indexing platform.
