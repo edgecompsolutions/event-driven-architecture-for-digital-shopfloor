@@ -84,7 +84,7 @@ As such, less demand for requirements of network and computing hardware is requi
 There is a data pipeline available in the event streaming platform that we recommended. So, data reliability is guaranteed.
 
 ### Demo
-Showing digital twin from the existing disconnected IIoT machine. The following diagram shows our proposed architecture and solutions on how to obtain the machine data for digital twin use case in event-driven architecture.
+Showing digital twin from the existing disconnected IIoT machine. The following diagram shows our proposed architecture and solutions on how to obtain the machine data for digital twin use case in event-driven architecture. It doesn't restricted to only production process data and machine data, it also could have metrics and logs to address system and cybersecurity observability.
 
 ![gtronics-demo-digital-twin](https://user-images.githubusercontent.com/107167692/217925435-a9e97193-e167-4d56-b107-65d371f18de0.png)
 
@@ -122,7 +122,7 @@ The following screen shot of the local dashboard shows the minimum, average, and
 
 ![Screenshot from 2023-02-10 04-17-20](https://user-images.githubusercontent.com/107167692/217929457-4998d6ef-3dc9-41ec-9aa7-ee7caf056419.png)
 
-This is the legacy dashboard design. The machine vendor designed what data should their customers see. Customers are locked in. With the digital twin (After digitalizing the machine data), the customers now have the opportunity to customize the dashboard for different analytical purposes or any other downstream use case.
+This is the legacy dashboard design. The machine vendor designed what data should only their customers see. Customers are locked in. With the digital twin (After digitalizing the machine data), the customers now have the opportunity to customize the dashboard for different analytical purposes or any other downstream use case.
 
 
 
