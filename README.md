@@ -124,6 +124,8 @@ The following screen shot of the local dashboard shows the minimum, average, and
 
 This is the legacy dashboard design. The machine vendor designed what data should only their customers see. Customers are locked in. With the digital twin (After digitalizing the machine data), the customers now have the opportunity to customize the dashboard for different analytical purposes or any other downstream use case.
 
+### Examples:
+
 Example: Twinning exactly what data is available in the local machine. For details, please contact us for further actual demo.
 
 ![Screenshot from 2023-02-10 04-58-02](https://user-images.githubusercontent.com/107167692/217937683-59c3b12f-7e05-461a-8f56-d14fb6265c21.png)
