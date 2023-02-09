@@ -1,5 +1,3 @@
-Event-driven architecture for digital shopfloor
-
 ### Introduction
 This page demonstrates the concept and importance of building an event-driven architecture for digital shopfloor.
 
