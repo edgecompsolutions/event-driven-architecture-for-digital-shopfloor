@@ -139,8 +139,9 @@ Other possible use cases:
 2. Digital thread (Single source of thruth for entire i4.0 process) + Digital twin
 3. Digital thread + microservices + new digital innovation (e.g. machine learning) + Digital twin
 4. IT observability (Including master database metrics and logs can be governed and audited easily) and SIEM (Cybersecurity analytics). Note: This is important to protect the business and operation, any unauthorized access to the master database will be instantly detected 
-5. Sustainability use case 
-6. 5G deployment 
+5. Search platform 
+6. Sustainability use case 
+7. 5G deployment 
 
 The following diagram shows the architecture and solutions with digital thread in front of indexing platform. Normalizing data can be performed. Every microservices or subscriber could access the accurate and updated transactional data. Customers are allowed to choose various supported database if they want. Apache Spark is allowed for integration as well.
 
