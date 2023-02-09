@@ -73,7 +73,7 @@ Machine Z ---> Rest API --->
 ```
 
 ### Modern Approach
-Event-driven architecture resolves this challenge at ease by leveraging asynchronous and lousely coupled architecture with source and sink connectors. There is no more client-server request-reponse scenario. Instead, the event-driven architecture promotes something called publisher and subscriber. The publisher will send its event (As long as it has the changed data available in its database) to the publisher immediately in real-time.
+Event-driven architecture resolves this challenge at ease by leveraging asynchronous and lousely coupled architecture with source and sink connectors. There is no more client-server request-reponse scenario. Instead, the event-driven architecture promotes something called publisher and subscriber. The publisher will send its event (As long as it has the changed data available in its database) to the subscriber immediately in real-time.
 
 ```
 Machine X (Publisher) with source connector ---> Asynchronous API (Event) ---> event streaming platform ---> Asynchronous API (Event) ---> External DB (Subscriber) with sink connector ---> Query ---> Data Analytics
