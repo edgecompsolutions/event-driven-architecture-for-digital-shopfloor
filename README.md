@@ -151,7 +151,7 @@ The following diagram shows the architecture and solutions with digital thread i
 1. Open source, open standard, and hardware/cloud vendor agnostic. Large community.
 2. Zero licensing cost. Commercial support is available as an option.
 3. Opex model for majority workloads.
-4. Applying for distributed edge-cloud architecture at ease, e.g. many plants.
+4. Applying for distributed edge-cloud architecture at ease, e.g. many machines, many plants, etc
 5. Modern DevSecOps, MLOps, and NetOps approach.
 6. Extending and integrating new digital initiatives easily.
 7. etc
