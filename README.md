@@ -57,19 +57,19 @@ Client (External App) ---> Upload Data ---> Server (External DB)
 As such, when there are more machines and more data required to be retrieved, the demand for requirements of network and computing hardware will be higher. Imagine with the following scenario, the digital initiative will definitely fail.
 
 ```
-Machine S ---> Rest API ---> 
+Machine S ---> Rest API (Multiple) ---> 
 
-Machine T ---> Rest API --->
+Machine T ---> Rest API (Multiple) --->
 
-Machine U ---> Rest API --->
+Machine U ---> Rest API (Multiple) --->
 
-Machine V ---> Rest API ---> External App ---> Rest API (Multiple) ---> External DB ---> Query ---> Data Analytics
+Machine V ---> Rest API (Multiple) ---> External App ---> Rest API (Multiple) ---> External DB ---> Query ---> Data Analytics
 
-Machine W ---> Rest API ---> 
+Machine W ---> Rest API (Multiple) ---> 
 
-Machine X ---> Rest API ---> 
+Machine X ---> Rest API (Multiple) ---> 
 ...
-Machine Z ---> Rest API ---> 
+Machine Z ---> Rest API (Multiple) ---> 
 ```
 
 ### Modern Approach
