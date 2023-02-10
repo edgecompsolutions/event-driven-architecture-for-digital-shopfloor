@@ -1,3 +1,5 @@
+Arthur: cr.ooi@edgecomp.my
+
 ### Introduction
 This page demonstrates the concept and importance of building an event-driven architecture for digital shopfloor.
 
