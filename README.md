@@ -126,7 +126,7 @@ However, this is a simple and basic dashboard (Data visualization). The machine 
 
 ### Examples:
 
-Example: Twinning exactly what data is available in the local machine. Eliminating data historian at on premise since it's available here now and can be archived. For details, please contact us for further actual demo.
+Example: Twinning exactly what data is available in the local machine. Eliminating data historian at on premise since it's available at here now and can be archived to cloud based external storage. For details, please contact us for further actual demo.
 
 ![Screenshot from 2023-02-10 04-58-02](https://user-images.githubusercontent.com/107167692/217937683-59c3b12f-7e05-461a-8f56-d14fb6265c21.png)
 
