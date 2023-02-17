@@ -158,3 +158,8 @@ The following diagram shows the architecture and solutions with digital thread i
 6. Extending and integrating new digital initiatives easily.
 7. etc
 
+### Additional:
+
+![gtronics-demo-additional](https://user-images.githubusercontent.com/107167692/219557415-5363ddd3-885c-4c16-8f2d-0a9067b79c80.png)
+
+If MQTT has been a standard of messaging protocol in the current shop floor, we could going for the above architecture to integrate Kafka with the MQTT broker. That way, we could get the best of breed solutions between shop floor and enterprise applications architecture. Most manufacturing has this similar architecture.
