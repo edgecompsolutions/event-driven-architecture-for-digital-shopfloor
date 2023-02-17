@@ -147,7 +147,7 @@ Other possible use cases:
 
 The following diagram shows the architecture and solutions with digital thread in front of indexing platform. Normalizing data can be performed. Every microservices or subscriber could access the accurate and updated transactional data. Customers are allowed to choose various supported database if they want. Apache Spark is allowed for integration as well.
 
-![demo-digital-thread-and-digital-twin](https://user-images.githubusercontent.com/107167692/219696483-46aa6bea-a225-4dbf-b75c-c524363e4aa0.png)
+![demo-digital-thread-and-digital-twin](https://user-images.githubusercontent.com/107167692/219696852-186b3593-0a9c-4abf-9f6b-364b49253d9e.png)
 
 ### Advantages:
 1. Open source, open standard, and hardware/cloud vendor agnostic. Large community.
@@ -160,6 +160,6 @@ The following diagram shows the architecture and solutions with digital thread i
 
 ### Additional:
 
-![demo-additional](https://user-images.githubusercontent.com/107167692/219696545-f0025bc7-9ccc-4242-918c-3b45c11a008a.png)
+![demo-additional](https://user-images.githubusercontent.com/107167692/219696898-58e02af1-0b4b-4b08-84cf-d49b201e0a80.png)
 
 If MQTT has been promoted as a standard of real-time messaging protocol in the current shop floor, we could go for the above architecture to integrate Kafka with the MQTT broker. That way, we could get the best of breed solutions between shop floor and enterprise applications architecture. Most well established manufacturing have this similar architecture. In this case, there isn't necessary to have edge node to collect the data, metrics, and logs from the shop floor (Like the diagram we have shown in demo diagram). Take note that the public specifications of MQTT is not really clear other than transport layer. This resulted different MQTT brokers might have different features or capabilities. You might want to have a look on this [link](https://mqtt.org/software/). It is better to perform due diligence to assess is it necessary to have MQTT architecture in your manufacturing environment if your machine already has an internal database that is ready to tap on. Blindly following the trend of the market could result in overhead and re-architecture risks. Last but not least, Prometheus and FluentD which aren't illustrated in the above diagram will be a subcriber accordingly after the Kafka. Both will be the standard collectors of metrics and logs. They will then send to OpenSearch or ML applications for analysis.
