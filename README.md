@@ -162,4 +162,4 @@ The following diagram shows the architecture and solutions with digital thread i
 
 ![gtronics-demo-additional](https://user-images.githubusercontent.com/107167692/219560872-b2e1252b-6453-42eb-9362-f74296c23eb2.png)
 
-If MQTT has been a standard of messaging protocol in the current shop floor, we could going for the above architecture to integrate Kafka with the MQTT broker. That way, we could get the best of breed solutions between shop floor and enterprise applications architecture. Most manufacturing has this similar architecture.
+If MQTT has been promoted as a standard of messaging protocol in the current shop floor, we could going for the above architecture to integrate Kafka with the MQTT broker. That way, we could get the best of breed solutions between shop floor and enterprise applications architecture. Most manufacturing has this similar architecture.
