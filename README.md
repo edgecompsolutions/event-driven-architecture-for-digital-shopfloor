@@ -147,7 +147,7 @@ Other possible use cases:
 
 The following diagram shows the architecture and solutions with digital thread in front of indexing platform. Normalizing data can be performed. Every microservices or subscriber could access the accurate and updated transactional data. Customers are allowed to choose various supported database if they want. Apache Spark is allowed for integration as well.
 
-![gtronics-demo-digital-thread-and-digital-twin](https://user-images.githubusercontent.com/107167692/217938543-08e6552a-32e8-44dd-8eb1-c139ac0c0752.png)
+![demo-digital-thread-and-digital-twin](https://user-images.githubusercontent.com/107167692/219678584-23cc2efe-ed6f-4f2e-89dd-608d07583578.png)
 
 ### Advantages:
 1. Open source, open standard, and hardware/cloud vendor agnostic. Large community.
