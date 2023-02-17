@@ -86,7 +86,7 @@ There is a data pipeline available in the event streaming platform that we recom
 ### Demo
 Showing digital twin from the existing disconnected IIoT machine. The following diagram shows our proposed architecture and solutions on how to obtain the machine data for digital twin use case in event-driven architecture. It doesn't restricted to only production process data and machine data, it also could have metrics and logs to address system and cybersecurity observability.
 
-![gtronics-demo-digital-twin](https://user-images.githubusercontent.com/107167692/219560832-d9856e4d-5bec-487e-8ddd-e82f5feb25ae.png)
+![demo-digital-twin](https://user-images.githubusercontent.com/107167692/219676510-4a7ba160-f1f6-4909-a7f0-9aace4e970f9.png)
 
 Fledge is a good open source system for IIoT machine which it has southbound plugins to connect to various sensors. We enabled a lathe simulator in it and to generate the readings. First, we will show it is in isolated scenario. The only choice to access its readings data is through its local dashboard.
 
