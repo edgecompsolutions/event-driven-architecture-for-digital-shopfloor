@@ -168,7 +168,7 @@ If MQTT has been promoted as a standard of real-time messaging protocol in the c
 
 Let's recap further on the edge node. The above diagram shows the best architecture if the edge machine vendor could redeploy their machine applications in containerized platform. This gives the easier architecture for orchestrating and operating the machine application in DevOps approach.
 
-![demo-recap-2](https://user-images.githubusercontent.com/107167692/219844302-70cbf88b-0969-4a97-8eab-5db559b5b274.png)
+![demo-recap-2](https://user-images.githubusercontent.com/107167692/219846040-af47c569-16bc-4056-b2c6-e2a3191f7e56.png)
 
 If the edge machine vendor already upgraded their applications (They might just deployed it as physical host deployment with an edge device) but still in disconnected architecture, we could have an edge node (It is best to leverage an edge server or a cluster of edge servers for this) likes the above diagram to retrieve the data in real-time. However, we might not be able to retrieve the host metrics and logs, unless they enabled in their edge devices or they have those metrics and logs in the database. 
 
