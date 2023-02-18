@@ -166,15 +166,15 @@ If MQTT has been promoted as a standard of real-time messaging protocol in the c
 
 ![demo-recap-1](https://user-images.githubusercontent.com/107167692/219844140-dd9c251a-2b48-44c5-9b7a-a98490f529bc.png)
 
-Let's recap further on the edge node. The above diagram shows the best architecture if the edge machine vendor could redeploy their machine application in containerized platform. This gives the easier architecture for orchestrating and operating the machine application in DevOps approach.
+Let's recap further on the edge node. The above diagram shows the best architecture if the edge machine vendor could redeploy their machine applications in containerized platform. This gives the easier architecture for orchestrating and operating the machine application in DevOps approach.
 
 ![demo-recap-2](https://user-images.githubusercontent.com/107167692/219844302-70cbf88b-0969-4a97-8eab-5db559b5b274.png)
 
-If the edge machine vendor already upgraded their application (They might just deployed it as physical host deployment with an edge device) but still in disconnected architecture, we could have an edge node (It is best to leverage an edge server or a cluster of edge servers for this) likes the above diagram to retrieve the data in real-time. However, we might not be able to retrieve the host metrics and logs, unless they enabled in their edge devices or they have those metrics and logs in the database. 
+If the edge machine vendor already upgraded their applications (They might just deployed it as physical host deployment with an edge device) but still in disconnected architecture, we could have an edge node (It is best to leverage an edge server or a cluster of edge servers for this) likes the above diagram to retrieve the data in real-time. However, we might not be able to retrieve the host metrics and logs, unless they enabled in their edge devices or they have those metrics and logs in the database. 
 
 ![demo-recap-3](https://user-images.githubusercontent.com/107167692/219844475-8c40ddab-1efb-41cf-86a7-45ba0845ece9.png)
 
-The above diagram shows how an edge node could simply scale to access multiple edge machine's data. Last but not least, event-driven architecture is dynamic, flexible, and scalable. It eliminates many challenges when going for digital.
+The above diagram shows how an edge node could simply scale to access multiple edge machine's data. Last but not least, event-driven architecture is reliable, flexible, and scalable. It eliminates many challenges when going for digital and helps to accelerate the digital innovations that could bring up the business advantages.
 
 ### Case Studies:
 
