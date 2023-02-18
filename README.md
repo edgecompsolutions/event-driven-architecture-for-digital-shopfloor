@@ -174,9 +174,30 @@ If the edge machine vendor already upgraded their application (They might just d
 
 ![demo-recap-3](https://user-images.githubusercontent.com/107167692/219844475-8c40ddab-1efb-41cf-86a7-45ba0845ece9.png)
 
-The above diagram shows how an edge node could simply scale to access multiple edge machine's data.
+The above diagram shows how an edge node could simply scale to access multiple edge machine's data. Last but not least, event-driven architecture is dynamic, flexible, and scalable. It eliminates many challenges when going for digital.
 
-Last but not least, event-driven architecture is dynamic, flexible, and scalable. It eliminates many challenges when going for digital.
+### Case Studies:
 
+Here are some examples of case study who leverage Kafka as its core in the manufacturing industries to build their digital platform.
 
+**Audi:** Audi, a German automobile manufacturer, uses Kafka to collect data from over 400 machines in its body shop. The data collected includes information on the status of each machine, the number of parts produced, and any errors or downtime. This data is used to optimize the manufacturing process, increase efficiency, and reduce downtime.
 
+**Schneider Electric:** Schneider Electric, a French multinational company that specializes in energy management and automation solutions, uses Kafka to process data from industrial equipment and sensors in real-time. The data is used to monitor equipment performance, predict maintenance needs, and optimize energy usage.
+
+**GE Digital:** GE Digital, a subsidiary of General Electric that provides software and services for the industrial internet, uses Kafka to collect and process data from industrial equipment and sensors. The data is used to monitor equipment performance, detect anomalies, and optimize maintenance schedules.
+
+**Bosch:** Bosch, a German engineering and technology company, uses Kafka to collect and process data from its manufacturing plants. The data is used to monitor production performance, identify bottlenecks, and optimize production schedules.
+
+**Pirelli:** Pirelli, an Italian multinational company that specializes in the production of high-performance tires, uses Kafka to collect data from its tire production lines. The data is used to monitor production performance, identify defects, and optimize the manufacturing process.
+
+Here are some examples of case study who leverage OpenSearch (ElastiSearch) in the manufacturing industries for their digital innovation.
+
+Caterpillar: Caterpillar, an American manufacturer of construction and mining equipment, uses Elasticsearch to analyze data from its machines in real-time. The data collected includes information on machine performance, fuel consumption, and maintenance needs. Elasticsearch enables Caterpillar to quickly identify and address issues, optimize machine performance, and reduce downtime.
+
+Michelin: Michelin, a French multinational tire manufacturer, uses OpenSearch to centralize its data from various sources, such as tire pressure sensors, GPS systems, and weather forecasts. The data is used to monitor tire performance, predict maintenance needs, and optimize routes and logistics.
+
+SKF: SKF, a Swedish manufacturer of bearings and lubrication systems, uses Elasticsearch to analyze data from its machines and sensors. The data collected includes information on bearing temperature, vibration, and wear. Elasticsearch enables SKF to quickly detect and diagnose issues, optimize maintenance schedules, and improve product quality.
+
+GE Aviation: GE Aviation, an American aircraft engine manufacturer, uses Elasticsearch to centralize its data from various sources, such as flight data, engine performance data, and maintenance logs. The data is used to monitor engine performance, predict maintenance needs, and optimize flight routes.
+
+Siemens: Siemens, a German multinational conglomerate, uses Elasticsearch to analyze data from its manufacturing processes. The data collected includes information on machine performance, energy usage, and production rates. Elasticsearch enables Siemens to quickly identify and address issues, optimize production schedules, and reduce downtime.
