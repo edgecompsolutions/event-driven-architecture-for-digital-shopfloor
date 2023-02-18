@@ -178,6 +178,8 @@ The above diagram shows how an edge node could simply scale to access multiple e
 
 ### Case Studies:
 
+> Obtained the following info through ChatGPT :P
+
 Here are some examples of case study who leverage Kafka as its core in the manufacturing industry to build their digital platforms.
 
 **Audi:** Audi, a German automobile manufacturer, uses Kafka to collect data from over 400 machines in its body shop. The data collected includes information on the status of each machine, the number of parts produced, and any errors or downtime. This data is used to optimize the manufacturing process, increase efficiency, and reduce downtime.
@@ -201,3 +203,13 @@ Here are some examples of case study who leverage OpenSearch (ElasticSearch) in 
 **GE Aviation:** GE Aviation, an American aircraft engine manufacturer, uses Elasticsearch to centralize its data from various sources, such as flight data, engine performance data, and maintenance logs. The data is used to monitor engine performance, predict maintenance needs, and optimize flight routes.
 
 **Siemens:** Siemens, a German multinational conglomerate, uses Elasticsearch to analyze data from its manufacturing processes. The data collected includes information on machine performance, energy usage, and production rates. Elasticsearch enables Siemens to quickly identify and address issues, optimize production schedules, and reduce downtime.
+
+Here are some examples of case study who leverage MQTT broker and Kafka together in the manufacturing industry.
+
+**BMW:** BMW, a German automobile manufacturer, uses an MQTT broker and Kafka together to collect data from its vehicles in real-time. The data collected includes information on vehicle performance, fuel consumption, and driver behavior. The data is transmitted from the vehicles to the MQTT broker, where it is then ingested into Kafka for processing and analysis. This enables BMW to monitor vehicle performance, optimize maintenance schedules, and improve product quality.
+
+**Jabil:** Jabil, a global manufacturing services company, uses an MQTT broker and Kafka together to collect data from its machines and sensors in real-time. The data collected includes information on machine performance, energy usage, and production rates. The data is transmitted from the machines and sensors to the MQTT broker, where it is then ingested into Kafka for processing and analysis. This enables Jabil to optimize production schedules, reduce downtime, and improve product quality.
+
+**General Motors:** General Motors, an American automobile manufacturer, uses an MQTT broker and Kafka together to collect data from its manufacturing processes in real-time. The data collected includes information on machine performance, quality control, and logistics. The data is transmitted from the manufacturing processes to the MQTT broker, where it is then ingested into Kafka for processing and analysis. This enables General Motors to optimize production schedules, reduce waste, and improve product quality.
+
+**Schneider Electric:** Schneider Electric, a French multinational company that specializes in energy management and automation solutions, uses an MQTT broker and Kafka together to collect data from its industrial equipment and sensors in real-time. The data collected includes information on equipment performance, energy usage, and environmental conditions. The data is transmitted from the equipment and sensors to the MQTT broker, where it is then ingested into Kafka for processing and analysis. This enables Schneider Electric to monitor equipment performance, predict maintenance needs, and optimize energy usage.
