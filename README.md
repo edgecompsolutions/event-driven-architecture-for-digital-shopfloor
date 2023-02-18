@@ -180,7 +180,7 @@ The above diagram shows how an edge node could simply scale to access multiple e
 
 > Obtained the following info through ChatGPT :P
 
-Here are some examples of case study who leverage Kafka as its core in the manufacturing industry to build their digital platforms.
+- Here are some examples of case study who leverage Kafka as its core in the manufacturing industry to build their digital platforms.
 
 **Audi:** Audi, a German automobile manufacturer, uses Kafka to collect data from over 400 machines in its body shop. The data collected includes information on the status of each machine, the number of parts produced, and any errors or downtime. This data is used to optimize the manufacturing process, increase efficiency, and reduce downtime.
 
@@ -192,7 +192,7 @@ Here are some examples of case study who leverage Kafka as its core in the manuf
 
 **Pirelli:** Pirelli, an Italian multinational company that specializes in the production of high-performance tires, uses Kafka to collect data from its tire production lines. The data is used to monitor production performance, identify defects, and optimize the manufacturing process.
 
-Here are some examples of case study who leverage OpenSearch (ElasticSearch) in the manufacturing industry for their digital innovations.
+- Here are some examples of case study who leverage OpenSearch (ElasticSearch) in the manufacturing industry for their digital innovations.
 
 **Caterpillar:** Caterpillar, an American manufacturer of construction and mining equipment, uses Elasticsearch to analyze data from its machines in real-time. The data collected includes information on machine performance, fuel consumption, and maintenance needs. Elasticsearch enables Caterpillar to quickly identify and address issues, optimize machine performance, and reduce downtime.
 
@@ -204,7 +204,7 @@ Here are some examples of case study who leverage OpenSearch (ElasticSearch) in 
 
 **Siemens:** Siemens, a German multinational conglomerate, uses Elasticsearch to analyze data from its manufacturing processes. The data collected includes information on machine performance, energy usage, and production rates. Elasticsearch enables Siemens to quickly identify and address issues, optimize production schedules, and reduce downtime.
 
-Here are some examples of case study who leverage MQTT broker and Kafka together in the manufacturing industry.
+- Here are some examples of case study who leverage MQTT broker and Kafka together in the manufacturing industry.
 
 **BMW:** BMW, a German automobile manufacturer, uses an MQTT broker and Kafka together to collect data from its vehicles in real-time. The data collected includes information on vehicle performance, fuel consumption, and driver behavior. The data is transmitted from the vehicles to the MQTT broker, where it is then ingested into Kafka for processing and analysis. This enables BMW to monitor vehicle performance, optimize maintenance schedules, and improve product quality.
 
