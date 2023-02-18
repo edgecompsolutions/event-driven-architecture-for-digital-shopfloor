@@ -190,7 +190,7 @@ Here are some examples of case study who leverage Kafka as its core in the manuf
 
 **Pirelli:** Pirelli, an Italian multinational company that specializes in the production of high-performance tires, uses Kafka to collect data from its tire production lines. The data is used to monitor production performance, identify defects, and optimize the manufacturing process.
 
-Here are some examples of case study who leverage OpenSearch (ElastiSearch) in the manufacturing industries for their digital innovation.
+Here are some examples of case study who leverage OpenSearch (ElasticSearch) in the manufacturing industries for their digital innovation.
 
 **Caterpillar:** Caterpillar, an American manufacturer of construction and mining equipment, uses Elasticsearch to analyze data from its machines in real-time. The data collected includes information on machine performance, fuel consumption, and maintenance needs. Elasticsearch enables Caterpillar to quickly identify and address issues, optimize machine performance, and reduce downtime.
 
