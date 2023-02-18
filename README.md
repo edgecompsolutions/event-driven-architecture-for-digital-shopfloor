@@ -86,7 +86,7 @@ There is a data pipeline available in the event streaming platform that we recom
 ### Demo
 Showing digital twin from the existing disconnected IIoT machine. The following diagram shows our proposed architecture and solutions on how to obtain the machine data for digital twin use case in event-driven architecture. It doesn't restricted to only production process data and machine data, it also could have metrics and logs to address system and cybersecurity observability.
 
-![demo-digital-twin](https://user-images.githubusercontent.com/107167692/219676510-4a7ba160-f1f6-4909-a7f0-9aace4e970f9.png)
+![demo-digital-twin](https://user-images.githubusercontent.com/107167692/219844040-6838a30a-4cf3-4105-afb6-473bb1132324.png)
 
 Fledge is a good open source system for IIoT machine which it has southbound plugins to connect to various sensors. We enabled a lathe simulator in it and to generate the readings. First, we will show it is in isolated scenario. The only choice to access its readings data is through its local dashboard.
 
@@ -147,7 +147,7 @@ Other possible use cases:
 
 The following diagram shows the architecture and solutions with digital thread in front of indexing platform. Normalizing data can be performed. Every microservices or subscriber could access the accurate and updated transactional data. Customers are allowed to choose various supported database if they want. Apache Spark is allowed for integration as well.
 
-![demo-digital-thread-and-digital-twin](https://user-images.githubusercontent.com/107167692/219696852-186b3593-0a9c-4abf-9f6b-364b49253d9e.png)
+![demo-digital-thread-and-digital-twin](https://user-images.githubusercontent.com/107167692/219844032-54555461-0f2a-4be2-b1c5-6eadcf23b6db.png)
 
 ### Advantages:
 1. Open source, open standard, and hardware/cloud vendor agnostic. Large community.
@@ -160,6 +160,10 @@ The following diagram shows the architecture and solutions with digital thread i
 
 ### Additional:
 
-![demo-additional](https://user-images.githubusercontent.com/107167692/219701471-6ff93dc8-418c-423f-9977-fc61a2bd55f1.png)
+![demo-additional](https://user-images.githubusercontent.com/107167692/219844020-ede95d44-51dd-4471-8035-3da6aa49b954.png)
 
 If MQTT has been promoted as a standard of real-time messaging protocol in the current shop floor, we could go for the above architecture to integrate Kafka with the MQTT broker. That way, we could get the best of breed solutions between shop floor and enterprise applications architecture. Most well established manufacturing have this similar architecture. In this case, there isn't necessary to have edge node to collect the data, metrics, and logs from the shop floor (Like the diagram we have shown in demo diagram). Take note that the public specifications of MQTT is not really clear other than transport layer. This resulted different MQTT brokers might have different features or capabilities. You might want to have a look on this [link](https://mqtt.org/software/). It is better to perform due diligence to assess is it necessary to have MQTT architecture in your manufacturing environment if your machine already has an internal database that is ready to tap on. Blindly following the trend of the market could result in overhead and re-architecture risks. Last but not least, event-driven architecture is dynamic, flexible, and scalable. It eliminates many challenges when going for digital.
+
+### Recapitulation:
+
+
