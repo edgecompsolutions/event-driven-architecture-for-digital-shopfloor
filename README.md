@@ -164,6 +164,5 @@ The following diagram shows the architecture and solutions with digital thread i
 
 If MQTT has been promoted as a standard of real-time messaging protocol in the current shop floor, we could go for the above architecture to integrate Kafka with the MQTT broker. That way, we could get the best of breed solutions between shop floor and enterprise applications architecture. Most well established manufacturing have this similar architecture. In this case, there isn't necessary to have edge node to collect the data, metrics, and logs from the shop floor (Like the diagram we have shown in demo diagram). Take note that the public specifications of MQTT is not really clear other than transport layer. This resulted different MQTT brokers might have different features or capabilities. You might want to have a look on this [link](https://mqtt.org/software/). It is better to perform due diligence to assess is it necessary to have MQTT architecture in your manufacturing environment if your machine already has an internal database that is ready to tap on. Blindly following the trend of the market could result in overhead and re-architecture risks. Last but not least, event-driven architecture is dynamic, flexible, and scalable. It eliminates many challenges when going for digital.
 
-### Recapitulation:
 
 
