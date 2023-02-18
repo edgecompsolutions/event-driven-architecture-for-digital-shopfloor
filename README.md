@@ -162,7 +162,21 @@ The following diagram shows the architecture and solutions with digital thread i
 
 ![demo-additional](https://user-images.githubusercontent.com/107167692/219844020-ede95d44-51dd-4471-8035-3da6aa49b954.png)
 
-If MQTT has been promoted as a standard of real-time messaging protocol in the current shop floor, we could go for the above architecture to integrate Kafka with the MQTT broker. That way, we could get the best of breed solutions between shop floor and enterprise applications architecture. Most well established manufacturing have this similar architecture. In this case, there isn't necessary to have edge node to collect the data, metrics, and logs from the shop floor (Like the diagram we have shown in demo diagram). Take note that the public specifications of MQTT is not really clear other than transport layer. This resulted different MQTT brokers might have different features or capabilities. You might want to have a look on this [link](https://mqtt.org/software/). It is better to perform due diligence to assess is it necessary to have MQTT architecture in your manufacturing environment if your machine already has an internal database that is ready to tap on. Blindly following the trend of the market could result in overhead and re-architecture risks. Last but not least, event-driven architecture is dynamic, flexible, and scalable. It eliminates many challenges when going for digital.
+If MQTT has been promoted as a standard of real-time messaging protocol in the current shop floor, we could go for the above architecture to integrate Kafka with the MQTT broker. That way, we could get the best of breed solutions between shop floor and enterprise applications architecture. Most well established manufacturing have this similar architecture. In this case, there isn't necessary to have edge node to collect the data, metrics, and logs from the shop floor (Like the diagram we have shown in demo diagram). Take note that the public specifications of MQTT is not really clear other than transport layer. This resulted different MQTT brokers might have different features or capabilities. You might want to have a look on this [link](https://mqtt.org/software/). It is better to perform due diligence to assess is it necessary to have MQTT architecture in your manufacturing environment if your machine already has an internal database that is ready to tap on. Blindly following the trend of the market could result in overhead and re-architecture risks.
+
+![demo-recap-1](https://user-images.githubusercontent.com/107167692/219844140-dd9c251a-2b48-44c5-9b7a-a98490f529bc.png)
+
+Let's recap further on the edge node. The above diagram shows the best architecture if the edge machine vendor could redeploy their machine application in containerized platform. This gives the easier architecture for orchestrating and operating the machine application in DevOps approach.
+
+![demo-recap-2](https://user-images.githubusercontent.com/107167692/219844302-70cbf88b-0969-4a97-8eab-5db559b5b274.png)
+
+If the edge machine vendor already upgraded their application (They might just deployed it as physical host deployment with an edge device) but still in disconnected architecture, we could have an edge node (It is best to leverage an edge server or a cluster of edge servers for this) likes the above diagram to retrieve the data in real-time. However, we might not be able to retrieve the host metrics and logs, unless they enabled in their edge devices or they have those metrics and logs in the database. 
+
+![demo-recap-3](https://user-images.githubusercontent.com/107167692/219844475-8c40ddab-1efb-41cf-86a7-45ba0845ece9.png)
+
+The above diagram shows how an edge node could simply scale to access multiple edge machine's data.
+
+Last but not least, event-driven architecture is dynamic, flexible, and scalable. It eliminates many challenges when going for digital.
 
 
 
